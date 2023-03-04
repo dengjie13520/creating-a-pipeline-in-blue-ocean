@@ -1,7 +1,7 @@
 pipeline {
   agent {
     node {
-      label '6-alpine'
+      label 'v18.14.0'
     }
 
   }
