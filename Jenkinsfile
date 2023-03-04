@@ -18,5 +18,11 @@ pipeline {
       }
     }
 
+    stage('success') {
+      steps {
+        echo 'ok'
+      }
+    }
+
   }
 }
